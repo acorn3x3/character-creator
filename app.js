@@ -12,7 +12,7 @@ const addButton = document.getElementById('add-button');
 const phraseList = document.getElementById('phrase-list');
 
 /* State */
-const character = {
+const character = 
     head: 'bird',
     middle: 'dress',
     pants: 'white',
