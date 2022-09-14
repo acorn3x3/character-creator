@@ -64,9 +64,9 @@ addButton.addEventListener('click', () => {
     const phrase = phraseInput.value;
     character.phrases.push(phrase);
     displayPhrases();
-    if (phraseInput ===  0) {
-    alert("field cannot be empty");
-    return false;
+    //if (phraseInput ===  0) {
+    //alert("field cannot be empty");
+    //return false;
 }
 
 
@@ -79,7 +79,7 @@ addButton.addEventListener('click', () => {
 
     // reset the input
     phraseInput.value = '';
-});
+);
 
 displayCharacter();
 displayPhrases();
