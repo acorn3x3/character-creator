@@ -51,7 +51,7 @@ function displayPhrases() {
 
     for (const phrase of character.phrases) {
         const li = document.createElement('li');
-        li.textContent = phrase
+        li.textContent = phrase;
         phraseList.append(li);
 
         // > create an <li> element
