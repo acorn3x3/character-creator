@@ -1,9 +1,9 @@
 /* Imports */
 
 /* DOM Elements */
-const headSelect = document.getElementById('head-select'); //player-article
-const middleSelect = document.getElementById('middle-select'); //player-header
-const pantsSelect = document.getElementById('pants-select');//player-avatar
+const headSelect = document.getElementById('head-select'); 
+const middleSelect = document.getElementById('middle-select');
+const pantsSelect = document.getElementById('pants-select');
 const headImage = document.getElementById('head-image');
 const middleImage = document.getElementById('middle-image');
 const pantsImage = document.getElementById('pants-image');
@@ -51,8 +51,8 @@ function displayPhrases() {
 
     for (const phrase of character.phrases) {
         const li = document.createElement('li');
-            li.textContent = phrase
-            phraseList.append(li);
+        li.textContent = phrase
+        phraseList.append(li);
 
         // > create an <li> element
         // > set the text of the li to the phrase
@@ -78,7 +78,7 @@ addButton.addEventListener('click', () => {
     // > Re-display the phrases
 
     // reset the input
-    phraseInput.value = '';
+phraseInput.value = '';
 
 
 displayCharacter();
